@@ -23,7 +23,8 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-		inlineStyleThreshold: Infinity
+		inlineStyleThreshold: Infinity,
+		fallback: 'index.html'
 		
 
 	}
